@@ -1,16 +1,14 @@
 /* 3-style.css */
 
-/* Targeting the root element, create custom font-family properties */
 :root {
-  --font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --font-family-base: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --font-family-title: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-/* Set body's font-family to font-family */
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-family-base);
 }
 
-/* Targeting all 6 levels of section headings and set their font-family to font-family */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family);
+  font-family: var(--font-family-title);
 }
